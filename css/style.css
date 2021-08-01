@@ -1,0 +1,454 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap");
+
+body {
+  margin     : 0px;
+  font-family: "Roboto Slab", serif;
+  box-sizing : border-box;
+}
+
+.containSpacing {
+  padding: 0px 100px;
+}
+
+/** header start **/
+header {
+  padding         : 12px;
+  color           : #fff;
+  background-color: #000;
+  background-image: linear-gradient(to right, #000, #133357);
+  text-align      : center;
+}
+
+header p {
+  margin   : 0px;
+  font-size: 14px;
+}
+
+.offerTime {
+  margin-top: 4px;
+}
+
+.row {
+  display: flex;
+}
+
+/** header end **/
+/** navigationArea start **/
+.navigationArea {
+  text-align: right;
+}
+
+.navigationArea nav {
+  margin: 16px 0px;
+}
+
+.navigationArea nav a {
+  text-decoration: none;
+  text-transform : uppercase;
+  color          : #000;
+  margin-left    : 22px;
+}
+
+/** navigationArea end **/
+/** planaTripArea start**/
+.planaTripArea {
+  margin-bottom: 32px;
+}
+
+.planaTripArea>div {
+  width: 50%;
+}
+
+.welcomeImgArea {
+  padding   : 52px;
+  text-align: center;
+}
+
+.welcomeText {
+  position: relative;
+}
+
+.welcomeTextInner {
+  position : absolute;
+  top      : 50%;
+  transform: translateY(-50%);
+}
+
+.welcomeText h1 {
+  font-size: 52px;
+}
+
+.welcomeText p {
+  font-size    : 20px;
+  width        : 68%;
+  margin-bottom: 26px;
+  color        : #2b2b2b;
+}
+
+.tripBtn {
+  color           : #fff;
+  background-color: #000;
+  background-image: linear-gradient(to right, #000, #133357);
+  border          : none;
+  border-radius   : 4px;
+  padding         : 14px 32px;
+  cursor          : pointer;
+  font-weight     : 600;
+}
+
+/** planaTripArea end**/
+/** wheaterArea start**/
+.sectionHeadingWeather {
+  padding         : 16px 26px;
+  background-color: #133357;
+  color           : #fff;
+  margin          : 0;
+  font-size       : 22px;
+}
+
+.weatherGroup {
+  display: flex;
+}
+
+.weatherGroup>div {
+  padding   : 16px 0px;
+  width     : 50%;
+  text-align: center;
+  color     : #fff;
+}
+
+.weatherGroup p {
+  margin   : 0px 0px 12px 0px;
+  font-size: 18px;
+}
+
+.weatherGroup h2 {
+  font-size: 82px;
+  margin   : 0px;
+}
+
+.weatherGroup h2 span {
+  position: relative;
+  left    : -10px;
+}
+
+.weatherGroup img {
+  width: 50px;
+}
+
+.wheater01 {
+  background-color: #0d7e88;
+}
+
+.wheater02 {
+  background-color: #d09378;
+}
+
+.wheater03 {
+  background-color: #405b5d;
+}
+
+.wheater04 {
+  background-color: #74a748;
+}
+
+/** wheaterArea end**/
+/** destinationsArea start **/
+.destinationsArea {
+  padding: 32px 0px;
+}
+
+.destinationsArea {
+  margin-right: -100px;
+}
+
+.sectionHeadingDestination {
+  color    : #133357;
+  font-size: 26px;
+  margin   : 0px;
+}
+
+.destinationsGridList {
+  margin-top: 22px;
+  display   : flex;
+  overflow  : hidden;
+}
+
+.destinationsGridList:hover {
+  overflow-x: auto;
+}
+
+.gridlistInner {
+  margin-right: 16px;
+}
+
+.gridlistInner img {
+  border-bottom-right-radius: 10px;
+  border-top-left-radius    : 10px;
+  border-top-right-radius   : 10px;
+  width                     : 200px;
+  height                    : 200px;
+}
+
+.gridlistInner p {
+  color: #949494;
+}
+
+/** destinationsArea end **/
+/** promoContentArea start **/
+.promoContentArea {
+  position: relative;
+}
+
+.promoContent {
+  position: absolute;
+  color   : #fff;
+  bottom  : 100px;
+  left    : 100px;
+}
+
+.promoContentArea img {
+  width : 100%;
+  height: auto;
+}
+
+.promoContent h2 {
+  font-size: 62px;
+  margin   : 16px 0px;
+}
+
+.promoContent p {
+  font-size: 38px;
+  margin   : 0px;
+}
+
+/** promo content end **/
+/** quate start **/
+.getQuateArea {
+  max-width: 450px;
+  margin   : 22px auto;
+}
+
+.getQuateArea h2 {
+  text-align: center;
+  color     : #173559;
+}
+
+.getQuateArea form {
+  text-align: center;
+}
+
+.fromGroup {
+  margin-bottom: 16px;
+  text-align   : left;
+}
+
+.fromGroup input {
+  display      : block;
+  height       : 40px;
+  border-radius: 5px;
+  border       : 1px solid #c1c1c1;
+  padding-left : 8px;
+  width        : 100%;
+  margin-top   : 8px;
+}
+
+.fromGroup label {
+  text-align: left;
+  color     : #c1c1c1;
+  font-size : 12px;
+}
+
+.fromGroup span {
+  font-size  : 12px;
+  color      : red;
+  padding-top: 6px;
+  display    : block;
+}
+
+.success {
+  padding         : 8px;
+  border-top      : 1px solid #ababab;
+  border-bottom   : 1px solid #ababab;
+  margin-bottom   : 16px;
+  background-color: #c6ffc5;
+  width           : 100%;
+  text-align      : left;
+  display         : none;
+}
+
+.success p {
+  font-size: 10px;
+  margin   : 0px;
+}
+
+/** quate end **/
+/** footer start **/
+footer {
+  padding         : 32px 100px;
+  color           : #fff;
+  background-color: #000;
+  background-image: linear-gradient(to right, #000, #133357);
+}
+
+.footerMenuArea {
+  width: 30%;
+}
+
+.disclaimerArea {
+  width: 40%;
+}
+
+.footerMenuArea ul {
+  margin : 0px;
+  padding: 0px;
+}
+
+.footerMenuArea ul li {
+  list-style: none;
+  margin    : 16px 0px;
+}
+
+.footerMenuArea ul li a {
+  text-decoration: none;
+  color          : #fff;
+}
+
+.disclaimerArea p {
+  font-size  : 16px;
+  line-height: 24px;
+}
+
+/** footer end **/
+
+/** media query **/
+@media screen and (max-width: 1280px) {
+  .welcomeImgArea img {
+    width : 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .welcomeText p {
+    width: 100%;
+  }
+
+  footer .row>div {
+    width: 50%;
+  }
+
+  .welcomeText h1 {
+    font-size: 32px;
+  }
+
+  .welcomeImgArea {
+    padding: 26px;
+  }
+
+  .containSpacing {
+    padding: 0px 26px;
+  }
+
+  .destinationsArea {
+    margin-right: -26px;
+  }
+
+  .promoContent h2 {
+    font-size: 42px;
+  }
+
+  .promoContent p {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+
+  .planaTripArea>div,
+  footer .row>div {
+    width: 100%;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .welcomeTextInner {
+    position  : relative;
+    text-align: center;
+  }
+
+  .welcomeImgArea {
+    padding: 0px;
+  }
+
+  .navigationArea {
+    margin: 0px -26px;
+  }
+
+  .navigationArea nav a {
+    margin-left: 12px;
+  }
+
+  .weatherGroup img {
+    width: 30px;
+  }
+
+  .weatherGroup h2 {
+    font-size: 58px;
+  }
+
+  .getQuateArea {
+    width: 100%;
+  }
+
+  .getQuateArea h2 {
+    font-size: 20px;
+  }
+
+  .navigationArea {
+    text-align: center;
+  }
+
+  .promoContent h2 {
+    font-size: 22px;
+  }
+
+  .promoContent p {
+    font-size: 14px;
+  }
+
+  .promoContent {
+    left  : 32px;
+    bottom: 32px;
+  }
+
+  footer {
+    padding: 48px 32px;
+  }
+
+  .footerMenuArea {
+    margin-bottom: 36px;
+  }
+}
+
+/** media query **/
+
+::-webkit-scrollbar {
+  width : 8px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
